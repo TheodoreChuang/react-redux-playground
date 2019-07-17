@@ -5,10 +5,5 @@ import App from "./components/App";
 
 // FIXME
 dotenv.config();
-// require("dotenv").config({
-//   path:
-//     "/Users/tchuang/Code/Courses/modernReactRedux-StephenGrider/video-browser/.env"
-// });
-// console.log(require("dotenv").config({ debug: true }));
 
 ReactDom.render(<App />, document.querySelector("#root"));
