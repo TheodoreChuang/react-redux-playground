@@ -6,6 +6,6 @@ export default axios.create({
     part: "snippet",
     maxResults: 5,
     // FIXME
-    key: process.env.YOUTUBE_API_KEY
+    key: process.env.REACT_APP_YOUTUBE_API_KEY
   }
 });
